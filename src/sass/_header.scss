@@ -1,0 +1,128 @@
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+
+  @media only screen and (max-width: 1000px) {
+    height: 7.5rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    height: 7rem;
+    padding: 1rem 2rem;
+  }
+}
+
+.logo {
+  width: auto;
+  height: 5rem;
+
+  @media only screen and (max-width: 700px) {
+    height: 4rem;
+  }
+}
+
+.navControl {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1.8rem;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+
+  &__btn {
+    width: 2.5rem;
+    height: 2px;
+    border-radius: 10rem;
+    background-color: #111;
+    position: relative;
+    display: block;
+    transition: all .3s;
+
+    @media only screen and (max-width: 700px) {
+      transform: scaleX(.9)
+    }
+
+    @media only screen and (max-width: 600px) {
+      transform: scaleX(.8)
+    }
+
+    &::before, &::after {
+      content: '';
+      display: block;
+      height: 2px;
+      border-radius: 10rem;
+      background-color: #111;
+      position: absolute;
+      right: 0;
+      transition: all .3s;
+    }
+
+    &::before {
+      width: 3.5rem;
+      top: -10px;
+
+      @media only screen and (max-width: 700px) {
+        top: -8px;
+      }
+    }
+
+    &::after {
+      width: 1.5rem;
+      bottom: -10px;
+
+      @media only screen and (max-width: 700px) {
+        bottom: -8px;
+      }
+    }
+  }
+
+  @media (-moz-touch-enabled: 0), (pointer: fine) {
+    &:hover {
+      .navControl__btn, .navControl__btn::after {
+        width: 3.5rem;
+      }
+    }
+  }
+}
+
+.toClose {
+
+  .navControl__btn {
+    background-color: transparent;
+
+    &::before, &::after {
+      transition: all .3s;
+      width: 3.5rem;
+      background-color: #fff;
+    }
+
+    &::before {
+      transform: rotate(135deg);
+      top: 0;
+    }
+
+    &::after {
+      transform: rotate(-135deg);
+      bottom: 0;
+    }
+  }
+}
+
+.is_feature {
+  z-index: 100;
+  position: relative;
+
+  .navControl__btn {
+    background-color: #fff;
+
+    &::before, &::after {
+      background-color: #fff;
+    }
+  }
+}

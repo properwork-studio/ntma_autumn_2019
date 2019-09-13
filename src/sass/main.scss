@@ -1,0 +1,47 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
+
+$color-orange: #f6921e;
+$color-dark-blue: #1b2846;
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+// Header Component
+@import "header.scss";
+// Navbar Component
+@import "navbar";
+// Jumbotron Component
+@import "jumbotron";
+// Sublink Component
+@import "sublink";
+// Footer Component
+@import "footer";
+// Content Component
+@import "content";
+// Column Component
+@import "column";
+// Pagination Component
+@import "pagination";
+// Feature Component
+@import "feature";

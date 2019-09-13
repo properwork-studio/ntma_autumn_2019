@@ -1,0 +1,132 @@
+
+.sublink {
+  background-color: #eee;
+  margin-top: -4rem;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 2rem;
+    color: #666;
+    font-weight: 500;
+    letter-spacing: .5px;
+    position: relative;
+
+    @media only screen and (max-width: 800px) {
+      width: 80%;
+      text-align: center;
+      background-color: #eee;
+    }
+
+    @media only screen and (max-width: 450px) {
+      width: 95%;
+    }
+
+    &::before, &::after {
+      content: '';
+      display: block;
+      width: 18rem;
+      height: 2px;
+      background-color: #666;
+      position: absolute;
+      top: 50%;
+
+      @media only screen and (max-width: 800px) {
+        width: calc((100% - 20rem) / 2);
+      }
+    }
+
+    &::before {
+      right: calc(100% + 2rem);
+
+      @media only screen and (max-width: 800px) {
+        right: 2rem;
+      }
+    }
+
+    &::after {
+      left: calc(100% + 2rem);
+
+      @media only screen and (max-width: 800px) {
+        left: 2rem;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    margin-top: 2rem;
+
+    @media only screen and (max-width: 800px) {
+      width: 85%;
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: 450px) {
+      width: 100%;
+    }
+  }
+
+  &__card {
+    display: flex;
+    margin: 0 .5rem;
+    border: 2px solid #111;
+    background-color: #fff;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+      margin: 0 auto 1rem;
+    }
+  }
+
+  &__volume {
+    display: flex;
+    margin-right: 1.5rem;
+  }
+
+  &__year {
+    font-size: 1.7rem;
+    transform: rotate(-90deg);
+    margin-right: -1rem;
+  }
+
+  &__season {
+    font-size: 2.5rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    line-height: 3.3rem;
+    border: 2px solid #111;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  &__text {
+    padding: 0 2rem;
+    border-left: 2px solid #111;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__btn {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    color: #111;
+    border: 2px solid #111;
+    padding: 1rem 3.5rem;
+    border-radius: 10rem;
+    line-height: 1;
+    transition: all .4s;
+
+    &:hover {
+      padding: 1rem 5rem;
+      background-color: #111;
+      color: #fff;
+    }
+  }
+}
