@@ -1,7 +1,7 @@
 {
   "name": "ntma_online_mag_201909",
   "version": "0.1.0",
-  "homepage": "https://www.properworkstudio.com/properwork_test/ntma_autumn_2019",
+  "homepage": "https://properwork-studio.github.io/ntma_autumn_2019",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",
