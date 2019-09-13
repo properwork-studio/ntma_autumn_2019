@@ -1,8 +1,10 @@
 {
   "name": "ntma_online_mag_201909",
   "version": "0.1.0",
+  "homepage": "https://www.properworkstudio.com/properwork_test/ntma_autumn_2019",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
@@ -14,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w"
+    "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
