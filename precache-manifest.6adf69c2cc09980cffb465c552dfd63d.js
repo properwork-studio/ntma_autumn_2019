@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06d500a4ffc954ddad427ee6a56531b1",
+    "revision": "a203516f64a12fd0798551f366a6b120",
     "url": "/ntma_autumn_2019/index.html"
   },
   {
-    "revision": "fe10652f4dbfea5bbbd4",
+    "revision": "1db603cbc80b549ecf9d",
     "url": "/ntma_autumn_2019/static/css/main.0d38c0a0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ntma_autumn_2019/static/js/2.ff4abfae.chunk.js"
   },
   {
-    "revision": "fe10652f4dbfea5bbbd4",
-    "url": "/ntma_autumn_2019/static/js/main.e1c87afc.chunk.js"
+    "revision": "1db603cbc80b549ecf9d",
+    "url": "/ntma_autumn_2019/static/js/main.fbcb34a1.chunk.js"
   },
   {
     "revision": "7bc953f4db8cb0687082",

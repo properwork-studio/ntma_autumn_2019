@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ntma_autumn_2019/precache-manifest.225dc9135676d117dd219cc04b084d8c.js"
+  "/ntma_autumn_2019/precache-manifest.6adf69c2cc09980cffb465c552dfd63d.js"
 );
 
 self.addEventListener('message', (event) => {
