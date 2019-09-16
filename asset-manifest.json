@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ntma_autumn_2019/static/css/main.0d38c0a0.chunk.css",
-    "main.js": "/ntma_autumn_2019/static/js/main.70b0a640.chunk.js",
-    "main.js.map": "/ntma_autumn_2019/static/js/main.70b0a640.chunk.js.map",
+    "main.js": "/ntma_autumn_2019/static/js/main.3bbcba5b.chunk.js",
+    "main.js.map": "/ntma_autumn_2019/static/js/main.3bbcba5b.chunk.js.map",
     "runtime~main.js": "/ntma_autumn_2019/static/js/runtime~main.f4374e34.js",
     "runtime~main.js.map": "/ntma_autumn_2019/static/js/runtime~main.f4374e34.js.map",
     "static/js/2.ecc2d0b1.chunk.js": "/ntma_autumn_2019/static/js/2.ecc2d0b1.chunk.js",
     "static/js/2.ecc2d0b1.chunk.js.map": "/ntma_autumn_2019/static/js/2.ecc2d0b1.chunk.js.map",
     "index.html": "/ntma_autumn_2019/index.html",
-    "precache-manifest.b95718b393c83b2bbb6e36d26b117dd7.js": "/ntma_autumn_2019/precache-manifest.b95718b393c83b2bbb6e36d26b117dd7.js",
+    "precache-manifest.d6f5711aed03c416bc3f83de59ca8f61.js": "/ntma_autumn_2019/precache-manifest.d6f5711aed03c416bc3f83de59ca8f61.js",
     "service-worker.js": "/ntma_autumn_2019/service-worker.js",
     "static/css/main.0d38c0a0.chunk.css.map": "/ntma_autumn_2019/static/css/main.0d38c0a0.chunk.css.map"
   }
