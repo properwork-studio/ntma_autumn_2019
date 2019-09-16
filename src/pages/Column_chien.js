@@ -33,7 +33,7 @@ class Column_chien extends React.Component {
 
   render() {
     return (
-      <main id="top">
+      <div>
         <Header
           handleClick={this.handleClick}
           showNavbar={this.state.showNavbar}
@@ -100,7 +100,7 @@ class Column_chien extends React.Component {
         </section>
         <Footer />
         <Navbar showNavbar={this.state.showNavbar} />
-      </main>
+      </div>
     );
   }
 }

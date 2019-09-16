@@ -25,15 +25,18 @@ class IndexContent extends React.Component {
   }
 
   render() {
-    return(
-      <main>
-        <Header handleClick={this.handleClick} showNavbar={this.state.showNavbar} />
+    return (
+      <div>
+        <Header
+          handleClick={this.handleClick}
+          showNavbar={this.state.showNavbar}
+        />
         <Jumbotron />
         <Sublink />
         <Footer />
         <Navbar showNavbar={this.state.showNavbar} />
-      </main>
-    )
+      </div>
+    );
   }
   
 }

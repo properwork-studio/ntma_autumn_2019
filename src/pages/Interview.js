@@ -33,7 +33,7 @@ class Interview extends React.Component {
   render() {
     const intro = "";
     return (
-      <main id="top">
+      <div>
         <Header
           handleClick={this.handleClick}
           showNavbar={this.state.showNavbar}
@@ -99,7 +99,7 @@ class Interview extends React.Component {
         </section>
         <Footer />
         <Navbar showNavbar={this.state.showNavbar} />
-      </main>
+      </div>
     );
   }
 }

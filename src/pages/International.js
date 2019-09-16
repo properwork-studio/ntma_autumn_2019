@@ -34,7 +34,7 @@ class International extends React.Component {
     const intro =
       "提到法國的藝文場景，大多數人首先想到的一定是巴黎；然而法國第三大城里昂，也早已累積了足以代表地方文化與國際高度的藝文機構系統，其中既有文化生態與結構的基礎支持，也離不開機構自身及其重要人物的常年推動。以建館三十餘年的里昂當代藝術館為例，他們是如何成為今日里昂、乃至法國的重要文化地標，未來又將如何發展？";
     return (
-      <main id="top">
+      <div>
         <Header
           handleClick={this.handleClick}
           showNavbar={this.state.showNavbar}
@@ -69,7 +69,9 @@ class International extends React.Component {
                 Adilon，圖片提供：法國里昂當代藝術館
               </p>
             </div>
-            <h3 className="column__content-title">典藏展覽，保存藝術家的某個重要時刻</h3>
+            <h3 className="column__content-title">
+              典藏展覽，保存藝術家的某個重要時刻
+            </h3>
             <p>
               里昂當代館從成立之初即確立其清楚鮮明的定位，亦即哈斯帕耶稱之為「典藏展覽」（collection
               d’expositions）的概念，即美術館扮演「製作人」（centre de
@@ -132,7 +134,7 @@ class International extends React.Component {
         </section>
         <Footer />
         <Navbar showNavbar={this.state.showNavbar} />
-      </main>
+      </div>
     );
   }
 }
